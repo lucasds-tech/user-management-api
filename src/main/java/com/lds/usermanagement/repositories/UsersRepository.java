@@ -1,10 +1,10 @@
 package com.lds.usermanagement.repositories;
 
-import com.lds.usermanagement.domain.User;
+import com.lds.usermanagement.domain.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface UserRepository extends JpaRepository<User, UUID> {
+public interface UsersRepository extends JpaRepository<Users, UUID> {
 
 }

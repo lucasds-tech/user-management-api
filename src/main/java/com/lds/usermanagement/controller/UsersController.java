@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @RestController
-public class UserController implements UsersApi {
+public class UsersController implements UsersApi {
 
     private Map<String, UserResponse> users = new HashMap<>();
 
