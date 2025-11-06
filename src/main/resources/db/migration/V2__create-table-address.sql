@@ -7,6 +7,6 @@ CREATE TABLE address (
     number VARCHAR(10) NOT NULL,
     city VARCHAR(50) NOT NULL,
     state VARCHAR(50) NOT NULL,
-    user_id UUID,
-    FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE
+    users_id UUID,
+    FOREIGN KEY (users_id) REFERENCES users(id) ON DELETE CASCADE
 );
